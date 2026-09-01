@@ -4,4 +4,4 @@
 - [x] Substituir a imagem remota por um ativo local compatível com a Vercel.
 - [x] Atualizar o botão para a URL Manus fornecida pelo usuário.
 - [x] Validar o build e a renderização local.
-- [ ] Enviar a correção ao repositório Protocolo369.
+- [x] Enviar a correção ao repositório Protocolo369.
