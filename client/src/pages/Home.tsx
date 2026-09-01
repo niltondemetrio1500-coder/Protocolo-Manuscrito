@@ -16,7 +16,7 @@ export default function Home() {
 
         <figure className="presell-visual">
           <img
-            src="/manus-storage/protocolo369-presell_b8a40af7.jpeg"
+            src="https://media.atomicatmedia.net/u/ULU8Te7wSudmR9r06rffEyJuiqd2/Pictures/naBaBb9575840.jpeg?quality=84"
             alt="Nikola Tesla ao lado de documentos históricos e do número 369"
             width="1600"
             height="890"
