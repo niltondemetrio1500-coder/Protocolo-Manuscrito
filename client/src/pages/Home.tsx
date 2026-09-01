@@ -5,8 +5,7 @@
  * e um único CTA verde como foco de conversão.
  */
 
-const CTA_HREF =
-  "https://bio.foconodia.store/preclick?clickid=6a96fcc8e760aed3ef188118&rtkck=1788287107";
+const CTA_HREF = "https://protocolo369-b49hylzq.manus.space/";
 
 export default function Home() {
   return (
@@ -16,7 +15,7 @@ export default function Home() {
 
         <figure className="presell-visual">
           <img
-            src="https://media.atomicatmedia.net/u/ULU8Te7wSudmR9r06rffEyJuiqd2/Pictures/naBaBb9575840.jpeg?quality=84"
+            src="https://raw.githubusercontent.com/niltondemetrio1500-coder/Protocolo369/main/assets/protocolo369-presell.jpeg"
             alt="Nikola Tesla ao lado de documentos históricos e do número 369"
             width="1600"
             height="890"

@@ -1,7 +1,7 @@
-# Tarefas — GitHub + Vercel
+# Tarefas — Correção de imagem e CTA
 
-- [x] Confirmar o nome e a existência do repositório GitHub novo.
-- [x] Confirmar que a autorização necessária para envio de código está ativa.
-- [x] Validar a configuração de build e o fallback de rota para a Vercel.
-- [x] Enviar o projeto ao repositório GitHub.
-- [ ] Conectar o repositório à Vercel e orientar o usuário a clicar em Deploy.
+- [x] Verificar a versão publicada e confirmar a quebra do ativo visual.
+- [x] Substituir a imagem remota por um ativo local compatível com a Vercel.
+- [x] Atualizar o botão para a URL Manus fornecida pelo usuário.
+- [x] Validar o build e a renderização local.
+- [ ] Enviar a correção ao repositório Protocolo369.
