@@ -14,7 +14,7 @@ declare global {
  */
 
 const CTA_HREF = "https://manuscrito-indol.vercel.app/vsl.html";
-const HERO_IMAGE = "https://raw.githubusercontent.com/niltondemetrio1500-coder/Protocolo-Manuscrito/main/assets/manuscrito-sagrado.png";
+const HERO_IMAGE = "https://raw.githubusercontent.com/niltondemetrio1500-coder/Protocolo-Manuscrito/main/assets/manuscrito-sagrado.webp";
 
 export default function Manuscrito() {
   useEffect(() => {
