@@ -4,7 +4,7 @@
  * tipografia Poppins, imagem de produto em destaque e CTA verde único.
  */
 
-const CTA_HREF = "https://protocolo369-b49hylzq.manus.space/";
+const CTA_HREF = "https://manuscrito-indol.vercel.app/vsl.html";
 const HERO_IMAGE = "/manus-storage/manuscrito-sagrado_0d5e249c.png";
 
 export default function Manuscrito() {
