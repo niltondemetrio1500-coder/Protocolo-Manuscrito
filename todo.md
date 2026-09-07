@@ -1,8 +1,9 @@
-# Tarefas — Nova pressel do Manuscrito Sagrado
+# Tarefas — Protocolo Manuscrito
 
-- [x] Copiar e preparar a imagem fornecida pelo usuário.
-- [x] Criar uma nova rota clonada sem alterar a pressel original.
-- [x] Substituir a imagem principal pela capa do Manuscrito Sagrado.
+- [ ] Confirmar o repositório `Protocolo-Manuscrito` e a autorização GitHub.
+- [x] Criar a rota clonada com a imagem do Manuscrito Sagrado.
 - [x] Atualizar o CTA para https://manuscrito-indol.vercel.app/vsl.html.
-- [x] Validar responsividade, build e funcionamento do CTA.
-- [ ] Enviar a nova versão ao repositório Protocolo369.
+- [x] Instalar o Google Analytics G-E6PSY8S4C5 na nova página.
+- [x] Validar build, CTA e carregamento do rastreamento.
+- [ ] Enviar código e imagem ao repositório GitHub.
+- [ ] Orientar a importação do repositório na Vercel.

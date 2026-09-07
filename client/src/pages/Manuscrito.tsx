@@ -1,3 +1,12 @@
+import { useEffect } from "react";
+
+declare global {
+  interface Window {
+    dataLayer: unknown[];
+    gtag?: (...args: unknown[]) => void;
+  }
+}
+
 /**
  * Design reminder — variante da presell Protocolo 369:
  * mesma composição editorial minimalista, coluna única, fundo branco,
@@ -8,6 +17,24 @@ const CTA_HREF = "https://manuscrito-indol.vercel.app/vsl.html";
 const HERO_IMAGE = "/manus-storage/manuscrito-sagrado_0d5e249c.png";
 
 export default function Manuscrito() {
+  useEffect(() => {
+    const scriptId = "google-analytics-gtag";
+    if (!document.getElementById(scriptId)) {
+      const script = document.createElement("script");
+      script.id = scriptId;
+      script.async = true;
+      script.src = "https://www.googletagmanager.com/gtag/js?id=G-E6PSY8S4C5";
+      document.head.appendChild(script);
+    }
+
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = (...args: unknown[]) => {
+      window.dataLayer.push(args);
+    };
+    window.gtag("js", new Date());
+    window.gtag("config", "G-E6PSY8S4C5");
+  }, []);
+
   return (
     <main className="page-shell" aria-labelledby="page-title">
       <section className="intro-section" aria-label="Seleção para o Protocolo 369">
