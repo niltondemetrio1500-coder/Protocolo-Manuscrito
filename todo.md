@@ -1,7 +1,8 @@
-# Tarefas — Auditoria e otimização
+# Tarefas — Revisão de conformidade da copy
 
-- [ ] Auditar a página em desktop e celular.
-- [ ] Verificar imagem, CTA, Analytics e console do navegador.
-- [ ] Comprimir a imagem principal sem perda visual relevante.
-- [ ] Atualizar o ativo no GitHub e validar o build.
-- [ ] Enviar a correção e orientar o redeploy na Vercel.
+- [x] Identificar e remover alegações, promessas e características não comprovadas.
+- [x] Reescrever título, parágrafos e CTA em linguagem neutra e verificável.
+- [x] Manter imagem, estrutura e rastreamento sem promessas de resultado.
+- [x] Validar build, visual, acessibilidade e destino do CTA.
+- [ ] Enviar a versão revisada ao GitHub e orientar o redeploy na Vercel.
+- [ ] Revisar também a VSL externa, caso ela continue sendo o destino final do anúncio.
