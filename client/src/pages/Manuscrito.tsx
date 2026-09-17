@@ -8,9 +8,9 @@ declare global {
 }
 
 /**
- * Design reminder — página Manuscrito Sagrado:
- * composição editorial minimalista, coluna única, fundo branco,
- * tipografia Poppins, imagem informativa em destaque e CTA verde único.
+ * Design reminder — variante da presell Protocolo 369:
+ * mesma composição editorial minimalista, coluna única, fundo branco,
+ * tipografia Poppins, imagem de produto em destaque e CTA verde único.
  */
 
 const CTA_HREF = "https://manuscrito-indol.vercel.app/vsl.html";
@@ -37,13 +37,13 @@ export default function Manuscrito() {
 
   return (
     <main className="page-shell" aria-labelledby="page-title">
-      <section className="intro-section" aria-label="Apresentação do Manuscrito Sagrado">
-        <h1 id="page-title">CONHEÇA O MANUSCRITO SAGRADO</h1>
+      <section className="intro-section" aria-label="Seleção para o Protocolo 369">
+        <h1 id="page-title">PARABÉNS, VOCÊ FOI SELECIONADO!</h1>
 
         <figure className="presell-visual presell-visual--product">
           <img
             src={HERO_IMAGE}
-            alt="Imagem ilustrativa do Manuscrito Sagrado e de materiais apresentados em capas douradas"
+            alt="Manuscrito Sagrado e materiais de orientação espiritual apresentados em capas douradas"
             width="800"
             height="800"
             loading="eager"
@@ -52,35 +52,35 @@ export default function Manuscrito() {
         </figure>
       </section>
 
-      <section className="story-section" aria-label="Informações sobre o conteúdo">
+      <section className="story-section" aria-label="Mensagem da seleção">
         <div className="story-copy">
           <p>
-            <strong>Uma apresentação sobre o Manuscrito Sagrado</strong>
+            <strong>Isso é um sinal do Universo para você!</strong>
           </p>
 
           <p>
-            Esta página apresenta uma seleção de materiais reunidos sob o nome Manuscrito Sagrado.
+            Um manuscrito raro reúne palavras que iluminam caminhos, revelam novos horizontes e transformam destinos.
           </p>
 
           <p>
-            <strong>Conheça a proposta e os materiais apresentados.</strong>
+            <strong>Esse conhecimento foi guardado em silêncio por gerações.</strong>
           </p>
 
           <p>
-            Veja informações adicionais sobre o <strong className="name-highlight">Manuscrito Sagrado</strong> na apresentação disponível no próximo passo.
+            Agora, pela primeira vez, você poderá conhecer os ensinamentos do <strong className="name-highlight">Manuscrito Sagrado</strong> em uma apresentação exclusiva.
           </p>
 
           <p>
-            Para continuar, <strong className="warning-highlight">clique no botão abaixo</strong> e acesse a apresentação completa.
+            Mas tenho um aviso: <strong className="warning-highlight">Clique no botão abaixo somente se estiver pronto</strong>, pois o que será revelado pode transformar a forma como você enxerga prosperidade e abundância.
           </p>
 
-          <p>Deseja conhecer mais detalhes?</p>
+          <p>Tem certeza que está pronto para isso?</p>
         </div>
       </section>
 
       <section className="cta-section" aria-label="Acesso ao conteúdo">
         <a className="cta-link" href={CTA_HREF}>
-          Quero conhecer o conteúdo
+          Sim, quero conhecer o manuscrito
         </a>
       </section>
     </main>
