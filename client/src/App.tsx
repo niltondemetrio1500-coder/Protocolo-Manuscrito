@@ -10,6 +10,7 @@ import NotFound from "@/pages/NotFound";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
+import { PrivacyPolicy, Terms } from "./pages/Legal";
 import Manuscrito from "./pages/Manuscrito";
 
 function Router() {
@@ -18,6 +19,8 @@ function Router() {
       <Route path="/" component={Manuscrito} />
       <Route path="/protocolo369/prelander3/" component={Manuscrito} />
       <Route path="/protocolo369/prelander4/" component={Manuscrito} />
+      <Route path="/termos" component={Terms} />
+      <Route path="/politica-de-privacidade" component={PrivacyPolicy} />
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>
