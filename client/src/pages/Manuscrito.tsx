@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-const CTA_HREF = "https://manuscrito-indol.vercel.app/vsl.html";
+const CTA_HREF = "https://protocolo369-b49hylzq.manus.space/";
 const COMPANY_NAME = "ADRIANA CARLOS FERREIRA SOCIEDADE INDIVIDUAL DE ADVOCACIA";
 const CNPJ = "51.233.264/0001-26";
 const CONTACT_EMAIL = "andremonteiro@gmail.com";
